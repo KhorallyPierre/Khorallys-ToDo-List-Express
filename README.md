@@ -1,6 +1,6 @@
 # Khorallys-ToDo-List-Express
 
-Welcome to my Code Lyoko fan site! Here, users can pretend to be Lyoko warriors fighting Xana. Log in to unlock your very first mission against a Xana Attack.
+Welcome to my To-Do list! Here, users can use this to-do list to add, clear, and clear all items that are completed.
 
 ![To-Do List Express](background2.jpg)
 
