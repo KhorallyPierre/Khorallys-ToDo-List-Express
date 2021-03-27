@@ -1,0 +1,84 @@
+* {
+  background: url('background2.jpg') no-repeat center center fixed;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+input,
+button {
+
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+button {
+  background: rgba(172, 128, 144);
+}
+
+.button {
+  color: white;
+  margin-left: 3px;
+}
+
+.input {
+  background: white;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  color: lavender;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 700px;
+  height: 500px;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  /* padding-left: 40px; */
+  width: 50%;
+  height: 500px;
+  /* margin-left: 7rem; */
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  height: 300px;
+}
+
+.clear {
+  text-align: center;
+  background: lavender;
+}
+
+.clearCompleted {
+  width: 135px;
+  background: lavender;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+}
+
+.left button{
+  font-size: 15px;
+}
