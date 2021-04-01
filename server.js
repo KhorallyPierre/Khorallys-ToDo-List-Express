@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient
 
 var db, collection;
 
-const url = "mongodb+srv://khorally:pierre@cluster0.844oz.mongodb.net/t?retryWrites=todorue&w=majority";
+const url = "mongodb+srv://khorally:pierre@cluster0.kr02r.mongodb.net/todo?retryWrites=true&w=majority";
 const dbName = "todo";
 
 app.listen(3300, () => {
