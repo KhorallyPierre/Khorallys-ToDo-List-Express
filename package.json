@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "savage": "nodemon server.js"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -15,9 +11,18 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.2",
     "bson": ">=1.0.5",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
-    "mongodb": "^3.3.4"
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.3.4",
+    "morgan": "^1.10.0",
+    "mpath": "^0.8.3",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "minimist": ">=1.2.2",
