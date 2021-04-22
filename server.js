@@ -8,7 +8,7 @@ var db, collection;
 const url = "mongodb+srv://khorally:pierre@cluster0.kr02r.mongodb.net/todo?retryWrites=true&w=majority";
 const dbName = "todo";
 
-app.listen(3300, () => {
+app.listen(process.env.PORT || 3300, () => {
   MongoClient.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
