@@ -1,6 +1,6 @@
 # Khorallys-ToDo-List-Express
 
-Welcome to my To-Do list! Here, users can use this to-do list to add, clear, and clear all items that are completed. Check out the deployed version on Heroku [here](https://todolistexpress.herokuapp.com/).
+Welcome to my To-Do list! Here, users can use this to-do list to add, clear, and clear all items that are completed. Check out the deployed version on Heroku [here](https://khorallypexpress.herokuapp.com/).
 
 ![To-Do List Express](background2.jpg)
 
