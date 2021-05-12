@@ -82,3 +82,8 @@ li {
 .left button{
   font-size: 15px;
 }
+
+.list {
+  overflow-y: scroll;
+  height: 300px;
+}
