@@ -14,7 +14,11 @@ I learned that when running files server-side it's important to kill the server 
 
 5/11/21 - added scroll feature to my list so that tasks don't continue to list themselves off the page.
 
-next steps: in my next version  I will make it so that the list can be reordered. I also create a keydown event so that when 'enter' is pressed a new item is added to the list. That way 'add' does not need to be clicked to add new items on the list. 
+
+
+next steps: in my next version  I will make it so that the list can be reordered. I also create a keydown event so that when 'enter' is pressed a new item is added to the list. That way 'add' does not need to be clicked to add new items on the list.
+
+5/12/21 - added keydown event for enter. The syntax was interesting, but I managed to implement this update without issue. 
 
 Examples:
 Take a look at these couple examples that I have in my own portfolio:

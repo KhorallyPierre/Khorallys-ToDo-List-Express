@@ -90,6 +90,21 @@ function removeCompletedItems() {
   })
 }
 
+//key event
+// $(".input").keyup(function(event) {
+//     if (event.keyCode === 13) {
+//         $(".create").click();
+//     }
+// });
+
+document.querySelector(".input")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.querySelector(".create").click();
+    }
+});
+
 // add event listeners
 list.addEventListener('click', removeItem)
 clear.addEventListener('click', clearAll)
