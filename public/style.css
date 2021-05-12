@@ -74,10 +74,17 @@ h1 {
   background: lavender;
 }
 
-li {
+li{
   list-style: none;
   font-size: 15px;
+  /* background: rgb(196, 194, 185); */
 }
+
+.done {
+  background-color: red;
+}
+
+
 
 .left button{
   font-size: 15px;
@@ -86,4 +93,9 @@ li {
 .list {
   overflow-y: scroll;
   height: 300px;
+  width: 80%;
+}
+
+span {
+  background: rgb(196, 195, 185);
 }
